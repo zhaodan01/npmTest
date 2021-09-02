@@ -1,0 +1,29 @@
+{
+  "name": "npm-t-test",
+  "version": "1.0.0",
+  "description": "a npm package demo",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx babel src/ --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaodan01/npmTest.git"
+  },
+  "keywords": [
+    "npm",
+    "javascript"
+  ],
+  "author": "zhaodan01 <zhaodan01@keep.com> (https://github.com/zhaodan01/npmTest)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaodan01/npmTest/issues"
+  },
+  "homepage": "https://github.com/zhaodan01/npmTest#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0"
+  }
+}
